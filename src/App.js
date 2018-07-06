@@ -9,7 +9,7 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Who can beat Trump in 2020?</h1>
-          <h3 className="App-title">(a memory game)</h3>
+          <h3 className="App-title">- a memory game -</h3>
           
         </header>
         <p className="App-intro">
