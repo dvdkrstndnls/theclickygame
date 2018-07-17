@@ -55,12 +55,12 @@
 
 .card > .img-container {
   height: 60%;
-  overflow: hidden;
+  /* overflow: hidden; we dont need text so commenting out to hide card text */
   text-align: center;
-  background:#6CADDC;
+  background:rgb(3, 52, 87);
 }
 .card > .img-container > img {
-  width: 60%
+  width: 100%
 }
 
 .card > .content {
@@ -88,6 +88,7 @@
 
 .card > .remove:hover {
   color: #d50000;
+ 
 }
 
 .wrapper {
