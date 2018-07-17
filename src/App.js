@@ -15,26 +15,100 @@ class App extends Component {
         </header>
         <p className="App-intro">
           {/* To get started, edit <code>src/App.js</code> and save to reload. */}
-          This game is simple, click each face but only once!
+          This game is simple, click each face but <b>only</b> once!
         </p>
 
        
 
 
         <div class="wrapper">
-          <span>
-            <div class="card">
+          
+            <span class="card">
               <div class="img-container">
-                <img src=".././public/images/berniesanders.jpg" alt="Bernie Sanders"></img>
+                <img src="images/berniesanders.jpg" alt="Bernie Sanders"></img>
               </div>
-                <a class="style_prevu_kit"></a>
-            </div>
+                <a class="style_prevu_kit"></a> 
+            </span>
 
-            <div class="card">
-              <div class="img-container"></div>
-                <a class="style_prevu_kit"></a>
-            </div>
-          </span>
+            <span class="card">
+              <div class="img-container">
+                <img src="images/chrismurphy.jpg" alt="Chris Murphy"></img>
+              </div>
+                <a class="style_prevu_kit"></a> 
+            </span>
+
+            <span class="card">
+              <div class="img-container">
+                <img src="images/corybooker.jpg" alt="Cory Booker"></img>
+              </div>
+                <a class="style_prevu_kit"></a> 
+            </span>
+
+            <span class="card">
+              <div class="img-container">
+                <img src="images/devalpatrick.jpeg" alt="Deval Patrick"></img>
+              </div>
+                <a class="style_prevu_kit"></a> 
+            </span>
+
+            <span class="card">
+              <div class="img-container">
+                <img src="images/elizabethwarren.jpg" alt="Elizabeth Warren"></img>
+              </div>
+                <a class="style_prevu_kit"></a> 
+            </span>
+
+            <span class="card">
+              <div class="img-container">
+                <img src="images/joebiden.jpg" alt="Joe Biden"></img>
+              </div>
+                <a class="style_prevu_kit"></a> 
+            </span>
+
+            <span class="card">
+              <div class="img-container">
+                <img src="images/kamalaharris.jpg" alt="Kamala Harris"></img>
+              </div>
+                <a class="style_prevu_kit"></a> 
+            </span>
+
+            <span class="card">
+              <div class="img-container">
+                <img src="images/kirstengillibrand.jpg" alt="Kirsten Gillibrand"></img>
+              </div>
+                <a class="style_prevu_kit"></a> 
+            </span>
+
+            <span class="card">
+              <div class="img-container">
+                <img src="images/markcuban.jpeg" alt="Mark Cuban"></img>
+              </div>
+                <a class="style_prevu_kit"></a> 
+            </span>
+
+            <span class="card">
+              <div class="img-container">
+                <img src="images/oprahwinfrey.jpg" alt="Oprah Winfrey"></img>
+              </div>
+                <a class="style_prevu_kit"></a> 
+            </span>
+
+            <span class="card">
+              <div class="img-container">
+                <img src="images/sherrodbrown.jpg" alt="Sherrod Brown"></img>
+              </div>
+                <a class="style_prevu_kit"></a> 
+            </span>
+
+            <span class="card">
+              <div class="img-container">
+                <img src="images/terrymcauliffe.jpeg" alt="Terry McAuliffe"></img>
+              </div>
+                <a class="style_prevu_kit"></a> 
+            </span>
+
+            
+            
         </div>
         {/* const FriendCard = props => (
   <div className="card">
