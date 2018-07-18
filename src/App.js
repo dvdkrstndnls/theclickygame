@@ -111,8 +111,8 @@ class App extends Component {
             
         </div>
 
-        <footer className="App-header">
-          <h3 className="App-subtitle">Copyright 2018 by David Karsten Daniels || Study the code on GitHub</h3>
+        <footer className="App-footer">
+          <h3 className="App-subtitle">&copy; 2018 by <a href="https://github.com/dvdkrstndnls/Portfolio">DKD</a> || <a href="https://github.com/dvdkrstndnls/theclickygame">Peek at the code</a> on GitHub</h3>
           
         </footer>
         <p className="App-intro">
