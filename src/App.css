@@ -64,11 +64,11 @@
   width: 256px;
   box-shadow: 0 3px 6px #999, 0 3px 6px #999;
   /* text-align: left; */
-  display: block;
+  display: inline-block;
 }
 
 .card > .img-container {
-  height: 60%;
+  height: 100%;
   /* overflow: hidden; we dont need text so commenting out to hide card text */
   text-align: center;
   background:rgb(3, 52, 87);
