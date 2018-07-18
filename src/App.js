@@ -8,7 +8,9 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">WHO CAN BEAT TRUMP IN 2020?</h1>
+          <img src="images/toilet.jpg" alt="into the toilet" height="200" width="140"></img>
+
+          <h1 className="App-title">WHO CAN FLUSH AWAY TRUMP IN 2020?</h1>
           <h3 className="App-subtitle">- a memory game -</h3>
           <h4 className="App-score">Score: 0</h4>
           
@@ -110,6 +112,14 @@ class App extends Component {
             
             
         </div>
+
+        <footer className="App-header">
+          <h3 className="App-subtitle">Copyright 2018 by David Karsten Daniels || Study the code on GitHub</h3>
+          
+        </footer>
+        <p className="App-intro">
+          {/* To get started, edit <code>src/App.js</code> and save to reload. */}
+        </p>
         {/* const FriendCard = props => (
   <div className="card">
     <div className="img-container">
