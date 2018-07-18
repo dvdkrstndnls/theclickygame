@@ -8,9 +8,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <img src="images/toilet.jpg" alt="into the toilet" height="200" width="140"></img>
-
-          <h1 className="App-title">WHO CAN FLUSH AWAY TRUMP IN 2020?</h1>
+          <h1 className="App-title">WHO CAN FLUSH AWAY TRONALD DUMP IN 2020?</h1>
           <h3 className="App-subtitle">- a memory game -</h3>
           <h4 className="App-score">Score: 0</h4>
           
