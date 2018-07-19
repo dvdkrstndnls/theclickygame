@@ -1,14 +1,14 @@
-import React, {
-  Component
-} from 'react';
+import React, { Component } from 'react';
 import Title from "./components/Title/Title";
-import Card from "./components/Card/Card";
 import Wrapper from "./components/Wrapper";
+import Card from "./components/Card/Card";
 import candidates from "./candidates.json";
-import logo from './logo.svg';
 import './App.css';
 
+
+
 class App extends Component {
+  
   /* setting this.state.candidates to the candidates json array */
   state = {
     candidates
@@ -32,15 +32,14 @@ class App extends Component {
       <Title> Candidates </Title>  
       {this.state.candidates.map(candidate => (
           <Card 
-            removeFriend = {this.removeFriend}
+            removeCandidate = {this.removeCandidate}
           id = {candidate.id}
-          image = {
-            candidate.image
-          }
+          image = {candidate.image}
           />
-        ))
-      }
+        ))}
       </Wrapper>
+
+
 
      
 
@@ -48,9 +47,9 @@ class App extends Component {
       // <h3 className = "App-subtitle" > & copy; 2018 by < a href = "https://dvdkrstndnls.github.io/Portfolio/" > DKD < /a> || <a href="https:/ / github.com / dvdkrstndnls / theclickygame ">Peek at the code</a> on GitHub</h3>
 
       // </footer> <p className = "App-intro" > 
-      // { /* To get started, edit <code>src/App.js</code> and save to reload. */ } </p> 
+      // // { /* To get started, edit <code>src/App.js</code> and save to reload. */ } </p> 
 
-      // {/* // </div> */}
+      // // {/* // </div> */}
     );
   }
 }

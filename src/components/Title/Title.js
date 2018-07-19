@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import "./Title.css";
+import logo from './logo.svg';
 
 // const Title = props => <h1 className="title">{props.children}</h1>;
 
@@ -8,7 +9,7 @@ class Title extends Component {
       return (
         <div className="App">
           <header className="App-header">
-            {/* <img src={logo} className="App-logo" alt="logo" /> */}
+            <img src={logo} className="App-logo" alt="logo" />
             <h1 className="App-title">WHO CAN FLUSH AWAY TRONALD DUMP IN 2020?</h1>
             <h3 className="App-subtitle">- a memory game -</h3>
             <h4 className="App-score">Score: 0</h4>
