@@ -1,62 +1,63 @@
 [
     {
-        "breed": "bernie sanders",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Bernie_Sanders.jpg/220px-Bernie_Sanders.jpg"
+        "id": 1,
+        "name": "bernie sanders",
+        "image": "images/berniesanders.jpg"
     },
     {
-        "breed": "chris murphy",
-        "image": "https://dog.ceo/api/img/beagle/n02088364_13050.jpg"
+        "id": 2,
+        "name": "chris murphy",
+        "image": "images/chrismurphy.jpg"
     },
     {
-        "breed": "cory booker",
-        "image": "https://dog.ceo/api/img/husky/n02110185_14523.jpg"
+        "id": 3,
+        "name": "cory booker",
+        "image": "images/corybooker.jpg"
     },
     {
-        "breed": "deval patrick",
-        "image": "https://dog.ceo/api/img/maltese/n02085936_10197.jpg"
+        "id": 4,
+        "name": "deval patrick",
+        "image": "images/devalpatrick.jpeg"
     },
     {
-        "breed": "pomeranian",
-        "image": "https://dog.ceo/api/img/pomeranian/n02112018_13636.jpg"
+        "id": 5,
+        "name": "elizabeth warren",
+        "image": "images/elizabethwarren.jpg"
     },
     {
-        "breed": "poodle",
-        "image": "https://dog.ceo/api/img/poodle-miniature/n02113712_1088.jpg"
+        "id": 6,
+        "name": "joe biden",
+        "image": "images/joebiden.jpg"
     },
     {
-        "breed": "pyrenees",
-        "image": "https://dog.ceo/api/img/pyrenees/n02111500_395.jpg"
+        "id": 7,
+        "name": "kamala harris",
+        "image": "images/kamalaharris.jpg"
     },
     {
-        "breed": "chihuahua",
-        "image": "https://dog.ceo/api/img/chihuahua/n02085620_3409.jpg"
+        "id": 8,
+        "name": "kirstengillibrand",
+        "image": "images/kirstengillibrand.jpg"
     },
     {
-        "breed": "boxer",
-        "image": "https://dog.ceo/api/img/boxer/n02108089_11687.jpg"
+        "id": 9,
+        "name": "mark cuban",
+        "image": "images/markcuban.jpeg"
     },
     {
-        "breed": "chow",
-        "image": "https://dog.ceo/api/img/chow/n02112137_12792.jpg"
+        "id": 10,
+        "name": "oprah winfrey",
+        "image": "images/oprahwinfrey.jpg"
     },
     {
-        "breed": "corgi",
-        "image": "https://dog.ceo/api/img/corgi-cardigan/n02113186_1030.jpg"
+        "id": 11,
+        "name": "sherrod brown",
+        "image": "images/sherrodbrown.jpg"
     },
     {
-        "breed": "mastiff",
-        "image": "https://dog.ceo/api/img/mastiff-bull/n02108422_2052.jpg"
-    },
-    {
-        "breed": "sheepdog",
-        "image": "https://dog.ceo/api/img/sheepdog-english/n02105641_12614.jpg"
-    },
-    {
-        "breed": "terrier",
-        "image": "https://dog.ceo/api/img/terrier-american/n02093428_10164.jpg"
-    },
-    {
-        "breed": "shihtzu",
-        "image": "https://dog.ceo/api/img/shihtzu/n02086240_11766.jpg"
+        "id": 12,
+        "name": "terry mcauliffe",
+        "image": "images/terrymcauliffe.jpeg"
     }
 ]
+    

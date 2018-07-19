@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import Card from "./components/Card/Card";
+import Wrapper from "./components/Wrapper";
+import candidates from "./candidates.json";
 import logo from './logo.svg';
 import './App.css';
 
@@ -13,15 +16,16 @@ class App extends Component {
           <h4 className="App-score">Score: 0</h4>
           
         </header>
-        <p className="App-intro">
+        
+        <h5 className="App-intro">
           {/* To get started, edit <code>src/App.js</code> and save to reload. */}
           This game is simple, click each face but <b>only</b> once!
-        </p>
+        </h5>
 
        
+      
 
-
-        <div class="wrapper">
+        {/* <div class="wrapper">
           
             <span class="card">
               <div class="img-container">
@@ -109,10 +113,53 @@ class App extends Component {
 
             
             
-        </div>
+        </div> */}
+
+
+{/* // const App = () => ( might need this again */}
+  <Wrapper> 
+    {/* <h1 className="title"></h1> */}
+    <Card
+      image={candidates[0].image}
+    />
+    <Card
+      image={candidates[1].image}
+    />
+    <Card
+      image={candidates[2].image}
+    />
+    <Card
+      image={candidates[3].image}
+    />
+    <Card
+      image={candidates[4].image}
+    />
+    <Card
+      image={candidates[5].image}
+    />
+    <Card
+      image={candidates[6].image}
+    />
+    <Card
+      image={candidates[7].image}
+    />
+    <Card
+      image={candidates[8].image}
+    />
+    <Card
+      image={candidates[9].image}
+    />
+    <Card
+      image={candidates[10].image}
+    />
+    <Card
+      image={candidates[11].image}
+    />
+  </Wrapper>
+{/* ); */}
 
         <footer className="App-footer">
-          <h3 className="App-subtitle">&copy; 2018 by <a href="https://github.com/dvdkrstndnls/Portfolio">DKD</a> || <a href="https://github.com/dvdkrstndnls/theclickygame">Peek at the code</a> on GitHub</h3>
+          <h3 className="App-subtitle">&copy; 2018 by <a href="https://dvdkrstndnls.github.io/Portfolio/">DKD</a> || <a href="https://github.com/dvdkrstndnls/theclickygame">Peek at the code</a> on GitHub</h3>
           
         </footer>
         <p className="App-intro">
