@@ -19,10 +19,14 @@ const Card = props => (
         </li> */}
       </ul>
     </div>
-    <span onClick={() => props.removeCandidate(props.id)} className="remove">
-      {/* x */}
+    {/* this is the event listener but its doing the wrong thing, needs to shuffle. */}
+    <span onClick={() => props.removeCandidate(props.id)} className="remove"> 
+      {/* this is the thing to click but it needs to change to the whole card not just the X, then remove X*/}
+      x
     </span>
   </div>
 );
 
 export default Card;
+
+

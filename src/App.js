@@ -29,6 +29,7 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
+       
       <Title> Candidates </Title>  
       {this.state.candidates.map(candidate => (
           <Card 

@@ -14,6 +14,8 @@ class Title extends Component {
             <h3 className="App-subtitle">- a memory game -</h3>
             <h4 className="App-score">Score: 0</h4>
             
+        
+            
           </header>
           
           <h5 className="App-intro">
