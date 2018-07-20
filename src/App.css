@@ -21,7 +21,8 @@
   background-image: url("/images/toilet.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  height: 30%;
+  height: 90%;
+  /* width: fit-content; */
   padding: 20px;
   color: white;
 }
