@@ -12,7 +12,7 @@ class Title extends Component {
             <img src={logo} className="App-logo" alt="logo" />
             <h1 className="App-title">WHO CAN FLUSH AWAY TRONALD DUMP IN 2020?</h1>
             <h3 className="App-subtitle">- a memory game -</h3>
-            <h4 className="App-score">Score: 0</h4>
+            <h4 className="App-score">Score: {this.props.score}</h4>
             
         
             

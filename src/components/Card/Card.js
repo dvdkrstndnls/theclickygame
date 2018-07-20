@@ -4,7 +4,7 @@ import "./Card.css";
 const Card = props => (
   <div className="card">
     <div className="img-container">
-      <img alt={props.name} src={props.image} />
+      <img alt={props.name} src={props.image} onClick={() => props.removeCandidate(props.id)} />
     </div>
     <div className="content">
       <ul>
@@ -20,10 +20,7 @@ const Card = props => (
       </ul>
     </div>
     {/* this is the event listener but its doing the wrong thing, needs to shuffle. */}
-    <span onClick={() => props.removeCandidate(props.id)} className="remove"> 
-      {/* this is the thing to click but it needs to change to the whole card not just the X, then remove X*/}
-      x
-    </span>
+    
   </div>
 );
 
